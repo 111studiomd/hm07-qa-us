@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-undef
 const config = require('../config');
 
-test('Should return 200 code', async () => {
+test('Status code should return 200 OK code', async () => {
      let statusCode;
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/kits/7`, {
@@ -15,7 +15,7 @@ test('Should return 200 code', async () => {
 });
 
 
-test('Should return 200 code', async () => {
+test('Status body should be true', async () => {
      let statusBody;
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/kits/7`, {

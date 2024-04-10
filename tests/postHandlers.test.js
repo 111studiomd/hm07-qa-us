@@ -27,7 +27,7 @@ test('Status code should be 200', async () => {
 	expect(actualStatus).toBe(200)
 });
 
-test('Response body should contain...', async () => {
+test('Response body should contain expected data', async () => {
     let actualResponseBody;
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/warehouses/check`, {

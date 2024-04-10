@@ -2,11 +2,11 @@
 const config = require('../config');
 
 const requestBody = {
+        "id": 3,
+        "quantity": 1
+                    }
 
-
-}
-
-test('Should return 200 code', async () => {
+test('Status code should return 200 code', async () => {
     let statusCode;
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/kits/7`, {
@@ -24,7 +24,7 @@ test('Should return 200 code', async () => {
 	expect(statusCode).toBe(200);
 });
 
-test('Ok Should be true', async () => {
+test('Status body should be true', async () => {
     let statusBody;
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/kits/7`, {

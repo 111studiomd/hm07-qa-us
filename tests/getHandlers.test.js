@@ -13,7 +13,7 @@ test('Request status code: expect 200', async () => {
 	expect(responseCode).toBe(200);
 });
 
-test('Response body should contain...', async () => {
+test('Response body should contain Everything You Need', async () => {
     let responseBody;
 	try {
 		const response = await fetch(`${config.API_URL}/api/v1/warehouses`);
