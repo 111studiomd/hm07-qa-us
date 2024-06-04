@@ -20,3 +20,4 @@
 6- Run the tests - npx run wdio - and check your work, if all tests are successful proceed 
 
 7- Commit and push the project via Android studio back to GitHub location
+
